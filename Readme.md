@@ -1,5 +1,5 @@
 <!-- default file list -->
-# How to: Use Services Implementing the IDocumentManagerService Interface
+# How to Use Services to Implement the IDocumentManagerService Interface
 
 *Files to look at*:
 
