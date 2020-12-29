@@ -3,6 +3,7 @@ Imports DevExpress.Mvvm.DataAnnotations
 Imports DXDocumentUIServiceSample.Common
 Imports System
 Imports System.Collections.ObjectModel
+Imports System.ComponentModel
 
 Namespace DXDocumentUIServiceSample.ViewModel
 	Public Class UserViewModel
