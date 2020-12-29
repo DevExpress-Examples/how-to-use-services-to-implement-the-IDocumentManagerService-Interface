@@ -13,9 +13,6 @@
     Width="1415"
     Height="620"
     ShowIcon="False">
-    <!--<dx:ThemedWindow.DataContext>
-        <ViewModel:MainViewModel />
-    </dx:ThemedWindow.DataContext>-->
     <Grid>
         <dxdo:DockLayoutManager>
             <dxdo:LayoutGroup>
