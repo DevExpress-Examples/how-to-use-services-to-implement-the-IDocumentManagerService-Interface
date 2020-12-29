@@ -41,12 +41,12 @@
                                 <dxdo:LayoutPanel Caption="Users">
                                     <View:MainView>
                                         <dxmvvm:Interaction.Behaviors>
-                                            <dxdo:TabbedDocumentUIService DocumentGroup="{Binding ElementName=documnetGroup}" />
+                                            <dxdo:TabbedDocumentUIService DocumentGroup="{Binding ElementName=documentGroup}" />
                                         </dxmvvm:Interaction.Behaviors>
                                     </View:MainView>
                                 </dxdo:LayoutPanel>
                                 <dxdo:DocumentGroup
-                                    x:Name="documnetGroup"
+                                    x:Name="documentGroup"
                                     Caption="Documents"
                                     ItemHeight="*" />
                             </dxdo:LayoutGroup>
@@ -58,12 +58,12 @@
                                 <dxdo:LayoutPanel Caption="Users">
                                     <View:MainView>
                                         <dxmvvm:Interaction.Behaviors>
-                                            <dxdo:DockingDocumentUIService LayoutGroup="{Binding ElementName=layouGroup}" />
+                                            <dxdo:DockingDocumentUIService LayoutGroup="{Binding ElementName=layoutGroup}" />
                                         </dxmvvm:Interaction.Behaviors>
                                     </View:MainView>
                                 </dxdo:LayoutPanel>
                                 <dxdo:LayoutGroup
-                                    x:Name="layouGroup"
+                                    x:Name="layoutGroup"
                                     Caption="Panels"
                                     ItemHeight="*" />
                             </dxdo:LayoutGroup>
